@@ -1,0 +1,24 @@
+
+.text-container{
+    position: absolute; width: 660px; background-color: #ffffff80; border-radius: 5px; overflow: hidden; left: 12%; top: 3em;
+}
+.main-txt{
+    padding-right: 5em;
+}
+.main-cont{
+    width: 100vw; height: 100vh; background-image: url(img/Main-bg-img.jpg); background-size: cover; background-position: right; position: relative; overflow: hidden;
+}
+
+@media only screen and (max-width: 800px) {
+    .text-container{
+        width: 90%;
+        left: 5%;
+        background-color: #ffffffc9
+    }
+    .main-txt{
+        padding-right: 2em;
+    }
+    .main-cont{
+        background-position: 80%;
+    }
+}
