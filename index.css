@@ -6,19 +6,40 @@
     padding-right: 5em;
 }
 .main-cont{
-    width: 100vw; height: 100vh; background-image: url(img/Main-bg-img.jpg); background-size: cover; background-position: right; position: relative; overflow: hidden;
+    width: 100vw; height: 100vh; background-image: url(img/bg-img-02-min.jpg); background-size: cover; background-position: right; position: relative; overflow: hidden;
+}
+.txt-box{
+    padding: 4em;
+}
+.logo-box{
+    padding: 2em 4em; background-color: #fff;
 }
 
 @media only screen and (max-width: 800px) {
+    .logo-box{
+        padding: 2em 3em;
+    }
+    .txt-box{
+        padding: 4em 3em;
+    }
     .text-container{
         width: 90%;
         left: 5%;
         background-color: #ffffffc9
     }
     .main-txt{
-        padding-right: 2em;
+        padding-right: 1em;
     }
     .main-cont{
         background-position: 80%;
     }
+}
+@media only screen and (max-width: 600px){
+    .logo-box{
+        padding: 2em;
+    }
+    .txt-box{
+        padding: 2em;
+    }
+    body{font-size: 14px;}
 }
